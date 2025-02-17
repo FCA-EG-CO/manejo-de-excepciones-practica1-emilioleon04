@@ -9,10 +9,9 @@ public class Excepciones {
         
         try {
             if (number % 2 != 0) {throw new Exception("Tu número no es par, escribe un numero par");}
+                else {System.out.println("Tu número es par!");}
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
-
-        if (number % 2 == 0) {System.out.println("Tu número es par!");}
     }
 }
